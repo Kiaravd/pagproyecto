@@ -1,0 +1,59 @@
+.navbar {
+    background-color: #000000;
+}
+
+a {
+    font-family: 'Aguafina Script', cursive;
+    font-size: 20px;
+    fill: #efb810;
+    transform: msFlter;
+
+
+}
+
+.nav-link.active {
+    font-size: 20px;
+    color: #efb810;
+
+}
+
+.nav-link.active:hover {
+    color: #CC9900;
+}
+
+.nav-item:hover:active {
+    color: #000;
+}
+
+svg:hover {
+    fill: #CC9900;
+}
+
+.bx.bxs-plane-alt {
+    position: absolute;
+    left: 237px;
+    top: 3.5px;
+
+}
+
+.linea {
+    width: 100%;
+    border: 2px solid;
+    color: #efb810;
+}
+
+.linea2 {
+    position: absolute;
+    left: 230px;
+    top: 22.5px;
+    width: 15px;
+    border: 0.5px solid;
+    ;
+    color: #efb810;
+    transform: rotate(-46deg);
+}
+.iframe{
+    width: 100%;
+    height: 60px;
+border-style: none;
+}

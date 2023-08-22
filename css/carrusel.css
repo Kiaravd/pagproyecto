@@ -1,0 +1,144 @@
+
+body{
+    background-color: black;
+}
+div[class="text1"]{
+    width: 350px ;
+    height: 28px;
+    background:green; 
+    font-size: 0.7rem;
+    color: black;
+    font-family: 'Graduate', cursive;
+    border-radius: 10px;
+    left: 50%;
+    top: -66%;
+    border: 5px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 5px 10px;
+}
+div[class="text2"]{
+    width: 250px ;
+    height: 70px;
+    font-size: 0.7rem;
+    color: white;
+    font-family: 'Graduate', cursive;
+    left: 37%;
+    top: -20%;
+    border: 3px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 5px 90px;
+ }
+
+div[class="text3"]{
+    width: 350px ;
+    height: 20px;
+    font-size: 0.7rem;
+    color: white;
+    font-family: 'Graduate', cursive;
+    left: 45%;
+    top: 85%;
+    border: 3px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 5px 90px;
+ }
+ div[class="text4"]{
+    width: 350px ;
+    height: 28px;
+    background:green; 
+    font-size: 0.7rem;
+    color: black;
+    font-family: 'Graduate', cursive;
+    border-radius: 10px;
+    left: 50%;
+    top: -66%;
+    border: 5px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 5px 10px;
+}
+div[class="text5"]{
+    width: 300px ;
+    height: 70px;
+    font-size: 0.7rem;
+    color: white;
+    font-family: 'Graduate', cursive;
+    left: 39%;
+    top: -20%;
+    border: 3px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 5px 90px;
+ }
+
+div[class="text6"]{
+    width: 350px ;
+    height: 20px;
+    font-size: 0.7rem;
+    color: white;
+    font-family: 'Graduate', cursive;
+    left: 45%;
+    top: 85%;
+    border: 3px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 5px 90px;
+ }
+ div[class="text7"]{
+    width: 350px ;
+    height: 28px;
+    background:green; 
+    font-size: 0.7rem;
+    color: black;
+    font-family: 'Graduate', cursive;
+    border-radius: 10px;
+    left: 50%;
+    top: -66%;
+    border: 5px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 5px 10px;
+}
+div[class="text8"]{
+    width: 300px ;
+    height: 70px;
+    font-size: 0.7rem;
+    color: white;
+    font-family: 'Graduate', cursive;
+    left: 39%;
+    top: -20%;
+    border: 3px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 5px 90px;
+ }
+
+div[class="text9"]{
+    width: 350px ;
+    height: 20px;
+    font-size: 0.7rem;
+    color: white;
+    font-family: 'Graduate', cursive;
+    left: 45%;
+    top: 85%;
+    border: 3px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 5px 90px;
+ }
+ 
+h1{
+    text-align: center;
+    font-size:1.8rem;
+    color: #efb810;
+    font-family: 'Almendra SC', serif;
+ 
+}
+img{
+ 
+    border-radius: 10px;
+    cursor:pointer;
+    filter: brightness(70%);
+}
