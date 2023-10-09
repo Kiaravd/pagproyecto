@@ -1,0 +1,323 @@
+body {
+  background: linear-gradient(45deg, #a1c9e5 50%, #acd5e8 50%);
+} 
+
+
+
+
+
+div[class="contenido"]{
+text-align: center;
+margin-top: -80px; 
+display:block
+}
+
+.t1{
+font-size: 2.2rem;
+text-align: center;
+padding: 0;
+margin: 0;
+margin: 15px 67px;
+font-family: 'Acme', sans-serif;
+}
+
+p{
+margin-top: 30px;
+font-family: 'Alata', sans-serif;
+font-size: 13.2px;
+}
+
+#overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: #808080;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  z-index: 100;
+}
+#popup {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  width: 530px;
+  height: 580px;
+  margin-left: -300px; 
+  margin-top: -330px; 
+  z-index: 200;
+  text-align: center;
+  border-style: solid;
+  border-width: 45px;
+  border-image: linear-gradient(to bottom, #b0daf1,#f8f5f6,  #b0daf1) 1;
+}
+#cerrar {
+  float: right;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.contenido {
+  padding: 20px;
+}
+
+
+.continuar{
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  right: 185px;
+  top: 500px;
+  width: 30%;
+  height: 40px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 5px;
+  background-color: #ebebeb ;
+  border: 1%;
+  
+}
+
+
+
+#boton {
+  cursor: pointer;
+}
+label[class="form-label"]{
+  margin-left: -3px;
+  padding-bottom: 10px;
+}
+
+.register-box{
+ width: 290px ;
+ height: 390px;
+ background: #d4e3fc; 
+ box-shadow: 0px 3px 7px black;
+ color: #000;
+ border-radius: 30px;
+ left: 50%;
+ top: 50%;
+ border: 2px;
+ position: absolute;
+ transform: translate(-50%, -50%);
+ padding: 5px 40px;
+ 
+}
+.register-box .logo{
+width:150px;
+height:75px;
+border-radius: 20px;
+position: absolute;
+top: -75px;
+left:calc(50%-50%);  
+right: 113px;
+box-shadow: 0px 4px 10px black;
+padding: -20px;
+background-image: url(/iconos/Vte.png);
+}
+
+
+
+.register-box.label{
+  margin:0;
+  padding: 0;
+  font-weight: bold;
+  right: 20px;
+}
+.register-box input{
+  width: 80%;
+  height:10px;
+  border-radius: 15px;
+  margin-left: 23px;
+  padding: 10px;
+  margin-bottom: 17px;
+  display: block;
+  
+
+}
+
+.register-box h1{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-family: 'calibri';
+
+}
+label[class="form-label"]{
+  margin-left: 1px;
+}
+button[class="confirmar"]{
+
+  display: block;
+  margin: 85px 82px;    
+  width: 40%;
+  height: 30px;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 0px 3px 7px black;
+  border-radius: 20px;
+  background-color:#75a9f9 ;
+  border: 0px;
+  
+  cursor: pointer;
+
+}
+.manita{
+
+cursor: pointer;
+position: absolute;
+right: 40px;
+top: 348px;
+text-decoration: underline;
+color: #2271b3; 
+}
+
+.terminos{
+color:#2271b3;
+}
+.cuenta{
+
+cursor: pointer;
+position: absolute;
+right: 200px;
+top: -1px;
+text-decoration: underline;
+color: #2271b3;
+}
+
+button[class="terminos"]{
+  width: 30%;
+  height: 30px;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 0px 3px 7px black;
+  border-radius: 20px;
+  background-color:#75a9f9 ;
+  border: 0px;
+}
+div[class="form-check d-flex justify-content-center mb-4"]{
+ margin-top: 20px;
+
+}
+
+.punto1{
+left: 55px;
+bottom: 146px;
+display: flex;
+position: absolute;
+font-size: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.punto2{
+ font-size: 10px;
+ left: 55px;
+bottom: 117px;
+display: flex;
+position: absolute;
+font-size: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.punto3{
+display: flex;
+left: 190px;
+top: 208px;
+position:absolute;
+font-size: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.punto4{
+display: flex;
+left: 190px;
+top: 238px;
+position:absolute;
+font-size: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+div[class="form-outline mb-4"]{
+  margin-bottom: 30px;
+}
+
+p [class="punto2"]{
+margin-top: -7px;
+}
+a{
+margin-top: 350px;
+color:#006ce5;
+font-size: 15px;
+}
+button[id="button"]{
+background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #006ce5;
+  font-size: 13px;
+}
+.icono1{
+background-image: url(iconos/lock.png);
+width: 25px;
+height: 25px;
+background-repeat: no-repeat;
+margin: -280px -11px;
+position: absolute;
+display: flex;
+}
+
+.icono2{
+background-image: url(iconos/lock.png);
+width: 25px;
+height: 25px;
+background-repeat: no-repeat;
+margin: -230px -11px;
+position: absolute;
+display: flex;
+}
+
+.icono3{
+background-image: url(iconos/contra.png);
+width: 23px;
+height: 23px;
+background-repeat: no-repeat;
+margin: -278px 241px;
+position: absolute;
+display: flex;
+cursor: pointer;
+}
+
+.icono4{
+background-image: url(iconos/contra.png);
+width: 23px;
+height: 23px;
+background-repeat: no-repeat;
+margin: -228px 241px;
+position: absolute;
+display: flex;
+cursor: pointer;
+}
+
+.icono5{
+background-image: url(iconos/User.png);
+width: 25px;
+height: 25px;
+background-repeat: no-repeat;
+margin: -331px -11px;
+position: absolute;
+display: flex;
+}
