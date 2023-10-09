@@ -1,5 +1,6 @@
 <script>
 function registrar(correo, contraseña, repetircon){
+    if(correo.includes('@gmail.com') || correo.includes('@hotmail.com') || correo.includes('@outlook.com') ){
     alert(correo+' '+ contraseña)
     $.ajax({
             url: 'ingresar.php',
@@ -15,7 +16,10 @@ function registrar(correo, contraseña, repetircon){
             }
         });
     }
-  
+    else{
+        console.log('ingresar correo correctamente')
+    }
+}
 function comprobar( email, contraseña, repetircon,){
 
     var aviso= document.getElementById('aviso')
@@ -33,13 +37,7 @@ function comprobar( email, contraseña, repetircon,){
     else{
         aviso.innerHTML ='';
     }
-//    email.value.forEach(correo => {
-//         if(correo.includes('@gmail.com')){
-//         }
-//         else{
-//             incorrecto.innerHTML ='correo no compatible';    
-//         }
-//    });
+ 
 
 }
 function validarformulario(contraseña, repetircon){

@@ -3,7 +3,7 @@ include ('../codigo.php');
 $con = mysqli_connect(HOST, USER, PASSWORD, DB);
 switch($_POST['action']) {
     case 'incluir':
-        if($_POST['pass'] !== $_POST['reppass'] || $_POST['pass'] === ""  ||  $_POST['reppass'] === "" ){
+        if($_POST['pass'] !== $_POST['reppass'] || $_POST['pass'] === ""  ||  $_POST['reppass'] === ""){
             echo json_encode(array('error'=>1, 'mensaje'=>' no se creo'));
         }
         else{

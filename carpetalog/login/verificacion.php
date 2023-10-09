@@ -5,7 +5,7 @@ switch ($_POST['enviar']) {
     case 'verificar':
         $email = $_POST["email"];
         $contraseña = $_POST["contraseña"];
-        $sql = "SELECT * FROM usuarios WHERE correo= '$email' and pass = '$contraseña' ";
+        $sql = "SELECT * FROM usuarios WHERE correo = '$email'";
         $result = mysqli_query($con, $sql);
         if ($result && mysqli_num_rows($result) == 1) {
             echo json_encode(array('error' => 0));
