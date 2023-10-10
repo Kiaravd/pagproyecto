@@ -51,7 +51,7 @@
           <!-- 2 column grid layout -->
           <div class="form-outline mb-4">
             <!-- Submit button -->
-            <button type="submit" onclick="login(document.getElementById('loginName').value,document.getElementById('loginPassword').value)" class="logear">Siguiente</button>
+            <button type="button" onclick="login(document.getElementById('loginName').value,document.getElementById('loginPassword').value)" class="logear">Siguiente</button>
 
             <!-- Register buttons -->
             <div class="text-center">

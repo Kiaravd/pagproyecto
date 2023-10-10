@@ -6,11 +6,12 @@ function login(correo, contraseña){
             type: 'POST',
             dataType: 'json',
              success: function(data) {
+                console.log(data)
                 if(data['error'] == 0){
                     window.location.href = '../../paginaprincipal.php';
                 }
                 else {
-                    alert("no se ingreso correctamente por :" + data['mensaje'] );   }             
+                    console.log("no se ingreso correctamente por :" + data['mensaje'] );   }             
             }
         });
     }

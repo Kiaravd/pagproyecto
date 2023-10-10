@@ -4,8 +4,8 @@ $con = mysqli_connect(HOST, USER, PASSWORD, DB);
 switch ($_POST['enviar']) {
     case 'verificar':
         $email = $_POST["email"];
-        $contraseña = $_POST["contraseña"];
-        $sql = "SELECT * FROM usuarios WHERE correo = '$email'";
+        $contra = md5( $_POST["contraseña"]);
+        $sql = "SELECT * FROM usuarios WHERE correo = '$email' AND pass = '$contra'";
         $result = mysqli_query($con, $sql);
         if ($result && mysqli_num_rows($result) == 1) {
             echo json_encode(array('error' => 0));

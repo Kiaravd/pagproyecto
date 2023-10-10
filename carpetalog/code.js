@@ -26,10 +26,33 @@ ojo2.addEventListener("click", function(){
     }
     })
 
-    // if(contraseña && contraseñarepetida != ''){
-    //     if(contraseña==contraseñarepetida){
-    //             console.log('bien')
-    //         }
-    //         else{
-    //             console.log('incorrecto')
-    //         }}
+    var cerrarpopup = document.getElementById("cerrar");
+    var overlay = document.getElementById("overlay");
+    var popup = document.getElementById("popup");
+    var boton = document.getElementById("button");
+    x=0;
+    $("#checkpop").click(function () {
+        x+=1;
+        par=  x % 2 === 0
+        if(par == false){
+            $("#continuarpop").click(function () {
+                overlay.style.display = 'none';
+                popup.style.display = 'none';
+            });
+        }
+        else{
+            $("#continuarpop").click(function () {
+                popup.style.display = 'block';
+            });
+           
+        }
+    });
+     
+   
+        
+    cerrarpopup.onclick = function() {
+      overlay.style.display = 'none';
+      popup.style.display = 'none';
+    }
+
+  
