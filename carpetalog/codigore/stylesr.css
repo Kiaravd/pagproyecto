@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    height: 100vh;
+    background-image: url(iconos/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: center;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box
+}
+
+form {
+    width: 390px;
+    height: 400px;
+    background-color: rgb(31, 31, 31);
+    box-shadow: 0px 3px 7px black;
+    color: #e29a13;
+    left: 50%;
+    top: 50%;
+    border: 2px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 5px 40px;
+    border: 2px solid rgb(255, 186, 83);
+    ;
+}
+
+input[class="boton1"] {
+    text-align: center;
+    position: absolute;
+    margin: -8px -50px;
+    margin-top: -17px;
+    margin-bottom: 8px;
+    width: 40%;
+    height: 10%;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.90);
+}
+
+input[class="boton2"] {
+    display: block;
+    position: absolute;
+    margin: -10px 170px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 35%;
+    height: 30px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0px 3px 7px black;
+    border-radius: 20px;
+    background-color: #6e6e6e;
+    border: 0px;
+}
+
+input[class="boton3"] {
+    display: block;
+    margin: 80px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 40%;
+    height: 30px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0px 3px 7px black;
+    border-radius: 20px;
+    background-color: #e29a13;
+    border: 0px;
+}
+
+div[class="icono1"] {
+    background-image: url(iconos/icono1.png);
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    margin: 205px 50px;
+    position: absolute;
+    display: flex;
+}
