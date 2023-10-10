@@ -11,7 +11,7 @@ function registrar(correo, contraseña, repetircon){
                     window.location.href = '../login/login.php';
                 }
                 else 
-                  {  alert("no se ingreso correctamente por :" + data['mensaje'] );     }           
+                  { console.log("no se ingreso correctamente por :" + data['mensaje'] );     }           
             }
         });
     }

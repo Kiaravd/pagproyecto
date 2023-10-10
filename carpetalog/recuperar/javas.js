@@ -5,8 +5,9 @@ function recuperar(correo){
             type: 'POST',
             dataType: 'json',
              success: function(data) {
+                console.log(data['mensaje'] ); 
                 if(data['error'] == 0){
-                    alert()
+                    window.location.href = '../codigore/codigore.php';
                     console.log(data['mensaje'] ); 
                 }
                 else {

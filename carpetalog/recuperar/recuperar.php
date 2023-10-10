@@ -7,9 +7,22 @@ switch ($_POST['enviar']) {
         $sql = "SELECT * FROM usuarios WHERE correo = '$email' ";
         $result = mysqli_query($con, $sql);
         if ($result && mysqli_num_rows($result) == 1) {
-            echo json_encode(array('error' => 0, 'mensaje' => 'encontrado'));
-        } else {
-            echo json_encode(array('error' => 1, 'mensaje' => 'acceso denegado'));
+            $mostrar = mysqli_fetch_array($result);
+            $titulo = 'codigo de recuperacion';
+            $mensaje= 'Este es su codigo de recuperacion: '. $mostrar['pass'];
+            $correoequipo= "From: kiarayoselinventuradiaz@gmail.com";
+            if(mail($email, $titulo, $mensaje, $correoequipo))
+            {
+            echo json_encode(array('error' => 0, 'mensaje' => 'codigo enviado'));
+            }
+            else 
+            {
+                echo json_encode(array('error' => 1, 'mensaje' => 'error'));
+            }
+        } 
+        else 
+        {
+            echo json_encode(array('error' => 1, 'mensaje' => 'no existe en la DB'));
         }
         break;
     case 'nada':

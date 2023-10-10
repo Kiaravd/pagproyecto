@@ -55,7 +55,7 @@
           </form>
           <!-- Register buttons -->
           <div class="text-center">
-            <p>¿No tienes cuenta? <a href="../registro/Register.html">Registrarse</a></p>
+            <p>¿No tienes cuenta? <a href="../registro/Register.php">Registrarse</a></p>
           </div>
           <div class="icono google">
             <button class="google" style="background-color: #ffffff;" type="submit">
