@@ -1,4 +1,3 @@
-<script>
 function login(correo, contraseña){
     $.ajax({
             url: 'verificacion.php',
@@ -15,4 +14,3 @@ function login(correo, contraseña){
             }
         });
     }
-</script>

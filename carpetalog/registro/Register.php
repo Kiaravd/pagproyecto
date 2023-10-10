@@ -42,12 +42,9 @@
       <button onclick=" registrar(document.getElementById('registerEmail').value, document.getElementById('registerPassword').value,document.getElementById('registerRepeatPassword').value),comprobar(document.getElementById('registerEmail'), document.getElementById('registerPassword'), document.getElementById('registerRepeatPassword'))"  type="button" class="confirmar">Continuar</button>
       </form>
 
-        <a type="submit" class="cuenta">¿Ya tienes una cuenta?</a> 
+       <center><a href="../login/login.php"  class="cuenta">¿Ya tienes una cuenta?</a></center>  
         <div id="contenidoprincipal">
-    
-    <div class="manita">
-    <a id="button" class="terminos">Términos y condiciones</a>
-    </div>
+
 
   
      </div> 
@@ -89,7 +86,7 @@
 <div class="borde">  
 <div id="popup">
     <div class="popupcontrols">
-        <span id="cerrar">X</span>
+        <span id="cerrar">⇽</span>
     </div>
     <div class="contenido">
       <form  class="tyc" >  
@@ -108,6 +105,6 @@
 </div>
 </div>
  <script src="../code.js"></script>
- <?php include('javascript.php'); ?>
+<script src="javascript.js"></script>
 </body>
 </html>

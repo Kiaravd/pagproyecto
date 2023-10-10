@@ -1,4 +1,3 @@
-<script>
 function registrar(correo, contraseña, repetircon){
     if(correo.includes('@gmail.com') || correo.includes('@hotmail.com') || correo.includes('@outlook.com') ){
     alert(correo+' '+ contraseña)
@@ -46,4 +45,3 @@ function validarformulario(contraseña, repetircon){
    }
     return true;
 }
-</script>

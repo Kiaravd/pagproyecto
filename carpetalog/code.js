@@ -51,8 +51,7 @@ ojo2.addEventListener("click", function(){
    
         
     cerrarpopup.onclick = function() {
-      overlay.style.display = 'none';
-      popup.style.display = 'none';
+        window.location.href = '../paginaprincipal.php';
     }
 
   
