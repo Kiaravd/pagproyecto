@@ -1,7 +1,13 @@
 
+h2{
+
+    color: rgb(238, 160, 42);
+}
 body {
     text-align: center;
-    
+    background-image: url(iconos/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -15,33 +21,35 @@ body {
     margin: 0px;
     box-sizing: border-box
 }
-form{
+.content{
+    border: solid 2px rgb(238, 160, 42) ;
     width: 420px ;
+    background-color: rgb(31, 31, 31) ; 
    height: 370px;
-   background: #d4e3fc; 
    box-shadow: 0px 3px 7px black;
    color: #000;
-   border-radius: 30px;
    left: 50%;
    top: 50%;
-   border: 2px;
    position: absolute;
    transform: translate(-50%, -50%);
    padding: 5px 40px;
 }
 input[class="boton1"]{
-    text-align: center;
     width: 80%;
+    font-family: 'Alata', sans-serif;
     height: 10%;
     border-radius: 30px;
-    align-items: center;
+    letter-spacing: 2px;
+
 }
 input[class="boton2"]{
-    text-align: center;
     width: 80%;
+    font-family: 'Alata', sans-serif;
     height: 10%;
     border-radius: 30px;
-    align-items: center;
+    align-items: center;  
+    letter-spacing: 2px;
+
 }
 input[class="boton3"]{
     display: block;
@@ -59,7 +67,14 @@ input[class="boton3"]{
     border-radius: 20px;
     background-color:#aaaaaa ;
     border: 0px;
+    cursor: pointer;
 }
+.boton3:hover {background-color: rgb(104, 102, 100)}
+.boton3:active {
+background-color: rgb(63, 62, 60);
+transform: translateY(4px);
+}
+
 input[class="boton4"]{
     display: block;
     margin: 80px 20px;
@@ -73,9 +88,17 @@ input[class="boton4"]{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-shadow: 0px 3px 7px black;
     border-radius: 20px;
-    background-color:#75a9f9 ;
+    background-color:#eb9b34 ;
     border: 0px;
+    cursor: pointer;
 }
+
+.boton4:hover {background-color: rgb(173, 127, 58)}
+.boton4:active {
+background-color: rgb(173, 127, 58);
+transform: translateY(4px);
+}
+
 
 form button{
     width: 30%;
@@ -89,7 +112,7 @@ background-image: url(iconos/lock.png);
 width: 25px;
 height: 25px;
 background-repeat: no-repeat;
-margin: 110px 6px;
+margin: 115px 3px;
 position: absolute;
 display: flex;
 }
@@ -99,7 +122,7 @@ div[class="icono2"]{
     width: 25px;
     height: 25px;
     background-repeat: no-repeat;
-    margin: 188px 6px;
+    margin: 191px 3px;
     position: absolute;
     display: flex;
     }
@@ -109,7 +132,7 @@ div[class="icono2"]{
         width: 23px;
         height: 23px;
         background-repeat: no-repeat;
-        margin: 111px 264px;
+        margin: 114px 264px;
         border-radius: 20%;
         position: absolute;
         display: flex;
@@ -120,7 +143,7 @@ div[class="icono2"]{
             width: 23px;
             height: 23px;
             background-repeat: no-repeat;
-            margin: 186px 264px;
+            margin: 187px 264px;
             border-radius: 20%;
             position: absolute;
             display: flex;
