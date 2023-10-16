@@ -30,24 +30,20 @@
           </div>
 
           <p class="text-center"></p>
-          <form action="">
+          <form action="" id="Login">
             <!-- Email input -->
             <div class="form-outline mb-4">
               <label class="form-label" for="loginName">Email o nombre de usuario</label>
               <br>
               <i class="fa-solid fa-sun"></i>
               <input type="email" id="loginName" class="form-control" placeholder="ejemplo123@hotmail.com" />
-
             </div>
-
             <!-- Password input -->
             <div class="form-outline mb-4">
               <label class="form-label2" for="loginPassword">Contraseña</label>
               <br>
               <input type="password" id="loginPassword" class="form-control" placeholder="pablitoclavounclavito" />
-
             </div>
-
             <!-- 2 column grid layout -->
             <div class="form-outline mb-4">
               <!-- Submit button -->

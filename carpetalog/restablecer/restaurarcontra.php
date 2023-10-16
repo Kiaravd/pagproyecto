@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="restaurar.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -29,16 +29,16 @@
         <br><br>
         <h2>Restablecer contraseña</h2>
         <br><br>
-        <input class="boton1" type="text" placeholder="Contraseña" id="registerPassword"/>
+        <input class="boton1" type="password" placeholder="Contraseña" id="registerPassword"/>
         <br><br><br>
-        <input class="boton2" type="text" placeholder="Confirmar contraseña" id="registerRepeatPassword" />
+        <input class="boton2" type="password" placeholder="Confirmar contraseña" id="registerRepeatPassword" />
         <br><br><br>
 
-        <input class="boton3" id="icono1" type="button" value="Cancelar"
-            onclick="location.href='../recuperar/restaurar.html'"> <input class="boton4" id="icono2" type="button"
-            value="Restablecer" onclick="location.href='../login/login.html'">
+        <input class="boton3" id="icono1" type="button" value="Cancelar" onclick="location.href='../recuperar/restaurar.php'"> 
+        <input class="boton4" id="icono2" type="button" value="Restablecer" onclick="restablecer(document.getElementById('registerPassword').value, document.getElementById('registerRepeatPassword').value)">
 
     </form>
+<script src="restablecer.js"></script>
 <script src="../code.js"></script>
 </body>
 
