@@ -291,6 +291,7 @@ p [class="punto2"]{
 }
 a{
   margin-top: 350px;
+  margin-left: 86px;
   color:#006ce5;
   font-size: 15px;
 }
@@ -352,4 +353,13 @@ cursor: pointer;
   margin: -331px -11px;
   position: absolute;
   display: flex;
+}
+#aviso{
+  color: #be1c1c;
+  position: absolute;
+  font-size: 12px;
+  font-weight: bolder;
+  height: 20px;
+  top:52px;
+  left: 115px;
 }
